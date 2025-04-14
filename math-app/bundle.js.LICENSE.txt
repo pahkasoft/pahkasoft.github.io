@@ -4,7 +4,7 @@
 	http://jedwatson.github.io/classnames
 */
 
-/*! For license information please see bundle.umd.js.LICENSE.txt */
+/*! For license information please see math-lib.umd.js.LICENSE.txt */
 
 /**
  * @license React
