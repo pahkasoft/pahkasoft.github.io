@@ -17,10 +17,24 @@
         <p class="lead text-center">Software Projects</p>
 
         <noscript>
-            <div class="alert alert-danger text-center m-0" role="alert">
+            <div class="alert alert-danger text-center" role="alert">
                 JavaScript is required to use this site.
             </div>
         </noscript>
+
+        <div id="es6msg" class="alert alert-danger text-center" role="alert" style="display: none;">
+            ES6 capable web browser is required, e.g. Chrome 51, Firefox 54, Edge 15,
+            Safari 10.
+        </div>
+
+        <script>
+            // Check for ES6 feature support (e.g., `let`, arrow functions, and `class`)
+            try {
+                eval("class TestClass {} let x = () => {};");
+            } catch (e) {
+                document.getElementById("es6msg").style = "display: block;"
+            }
+        </script>
 
         <div class="row">
             <div class="col-md-4">
@@ -74,20 +88,6 @@
                 </div>
             </div>
         </div>
-
-        <div id="es6msg" class="alert alert-danger text-center m-0" role="alert" style="display: none;">
-            ES6 capable web browser is required, e.g. Chrome 51, Firefox 54, Edge 15,
-            Safari 10.
-        </div>
-
-        <script>
-            // Check for ES6 feature support (e.g., `let`, arrow functions, and `class`)
-            try {
-                eval("class TestClass {} let x = () => {};");
-            } catch (e) {
-                document.getElementById("es6msg").style = "display: block;"
-            }
-        </script>
 
         <footer class="text-center text-muted py-4 mt-5 border-top">
             Copyright &copy; 2025 PahkaSoft. All rights reserved.
