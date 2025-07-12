@@ -14,7 +14,7 @@
 <body>
     <div class="container mt-5">
         <h1 class="text-center">Welcome to PahkaSoft</h1>
-        <p class="lead text-center">Software Projects</p>
+        <p class="lead text-center">Software Projects & Packages</p>
 
         <noscript>
             <div class="alert alert-danger text-center" role="alert">
@@ -22,7 +22,7 @@
             </div>
         </noscript>
 
-        <div id="es6msg" class="alert alert-danger text-center" role="alert" style="display: none;">
+        <div id="es6required" class="alert alert-danger text-center" role="alert" style="display: none;">
             ES6 capable web browser is required, e.g. Chrome 51, Firefox 54, Edge 15,
             Safari 10.
         </div>
@@ -32,76 +32,62 @@
             try {
                 eval("class TestClass {} let x = () => {};");
             } catch (e) {
-                document.getElementById("es6msg").style = "display: block;"
+                document.getElementById("es6required").style = "display: block;"
             }
         </script>
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4">
+            <div class="col-md-6 mb-4">
+                <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">BraceFormat</h5>
-                        <p class="card-text">
-                        <p>TS/JS library for powerful string formatting using brace notation.</p>
-                        <p>NPM Package: <a href="https://www.npmjs.com/package/@tspro/brace-format"
+                        <h5 class="card-title">@tspro/brace-format</h5>
+                        <p class="card-text">TS/JS library for powerful string formatting using brace notation.</p>
+                        <p class="card-text">NPM Package: <a href="https://www.npmjs.com/package/@tspro/brace-format"
                                 target="_blank">Visit</a>
-                        </p>
                         </p>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card mb-4">
+            <div class="col-md-6 mb-4">
+                <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">WebMusicScore</h5>
-                        <p class="card-text">
-                        <p>TS/JS component for rendering and playing music scores in the browser.</p>
-                        <p>NPM Package: <a href="https://www.npmjs.com/package/@tspro/web-music-score"
-                                target="_blank">Visit</a></p>
-                        <p>TS Docs:
+                        <h5 class="card-title">@tspro/tsup-plugin-inline-assets</h5>
+                        <p class="card-text">Inline assets plugin for tsup bundler.</p>
+                        <p class="card-text">NPM Package: <a
+                                href="https://www.npmjs.com/package/@tspro/tsup-plugin-inline-assets"
+                                target="_blank">Visit</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <h5 class="card-title">@tspro/web-music-score</h5>
+                        <p class="card-text">TS/JS component for rendering and playing music scores in the browser.</p>
+                        <p class="card-text">NPM Package: <a href="https://www.npmjs.com/package/@tspro/web-music-score"
+                                target="_blank">Visit</a>
+                        </p>
+                        <p class="card-text">TS Docs:
                             <a href="./web-music-score/docs/v1.0.0/index.html">1.0.0</a> |
                             <a href="./web-music-score/docs/v1.1.0/index.html">1.1.0</a>
                         </p>
-                        <p>Features Demo: <a href="./web-music-score/features-demo/index.html">Open</a></p>
+                        <p class="card-text">Apps:
+                            <a href="./web-music-score/features-demo/index.html">Features Demo</a> |
+                            <a href="./web-music-score/guitar-app/index.html">Interactive Guitar App</a>
                         </p>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card mb-4">
+            <div class="col-md-6 mb-4">
+                <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">Interactive GuitarApp</h5>
-                        <p class="card-text">
-                        <p>Interactive guitar application. This is a side project of WebMusicScore.</p>
-                        <p><a href="./web-music-score/guitar-app/index.html">Open</a></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">MathApp</h5>
-                        <p class="card-text">
+                        <h5 class="card-title">Math App</h5>
                         <p>A mathematics application/calculator.</p>
-                        <p><a href="./math-app/index.html">Open</a></p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Inline assets plugin for tsup</h5>
-                        <p class="card-text">
-                        <p>Inline assets plugin for tsup bundler.</p>
-                        <p>NPM Package: <a href="https://www.npmjs.com/package/@tspro/tsup-plugin-inline-assets"
-                                target="_blank">Visit</a>
-                        </p>
+                        <p class="card-text">Apps:
+                            <a href="./math-app/index.html">Math App / Calculator</a>
                         </p>
                     </div>
                 </div>
