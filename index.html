@@ -8,6 +8,18 @@
     <!-- Bootstrap 5 CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <style>
+        .code-block {
+            font-family: monospace;
+            background-color: #eef6ff;
+            color: #333;
+            padding: 12px;
+            margin: 12px;
+            border-radius: 8px;
+            white-space: pre-wrap;
+        }
+    </style>
+
     <title>Welcome to PahkaSoft</title>
 </head>
 
@@ -45,6 +57,11 @@
                         <p class="card-text">NPM Package: <a href="https://www.npmjs.com/package/@tspro/brace-format"
                                 target="_blank">Visit</a>
                         </p>
+                        <div class="code-block">
+                            import { format } from "@tspro/brace-format";
+
+                            let str = format("|{shape: ^6.6s}|{weight: ^6.3g}|", { shape: "box", weight: 2.5 });
+                        </div>
                     </div>
                 </div>
             </div>
@@ -57,6 +74,12 @@
                                 href="https://www.npmjs.com/package/@tspro/tsup-plugin-inline-assets"
                                 target="_blank">Visit</a>
                         </p>
+                        <div class="code-block">
+                            import Logo from "./assets/logo.png";
+
+                            let img = new Image();
+                            img.src = Logo;
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,6 +101,7 @@
                             <a href="./web-music-score/features-demo/index.html">Features Demo</a> |
                             <a href="./web-music-score/guitar-app/index.html">Interactive Guitar App</a>
                         </p>
+                        <img src="./assets/music-staff-1.jpg"></img>
                     </div>
                 </div>
             </div>
@@ -89,6 +113,7 @@
                         <p class="card-text">Apps:
                             <a href="./math-app/index.html">Math App / Calculator</a>
                         </p>
+                        <img src="./assets/math-app-1.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -98,6 +123,8 @@
             Copyright &copy; 2025 PahkaSoft. All rights reserved.
         </footer>
     </div>
+
+    <script src="./assets/format-code-blocks.js"></script>
 
     <!-- Bootstrap JS (optional) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
