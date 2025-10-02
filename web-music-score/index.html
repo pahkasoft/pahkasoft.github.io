@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Web Music Score</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <h1 class="text-center">Web Music Score</h1>
+        <p class="lead text-center">@tspro/web-music-score</p>
+
+        <noscript>
+            <div class="alert alert-danger text-center" role="alert">
+                JavaScript is required to use this page.
+            </div>
+        </noscript>
+
+        <div id="es6required" class="alert alert-danger text-center" role="alert" style="display: none;">
+            ES6 capable web browser is required, e.g. Chrome 51, Firefox 54, Edge 15,
+            Safari 10.
+        </div>
+
+        <script>
+            // Check for ES6 feature support (e.g., `let`, arrow functions, and `class`)
+            try {
+                eval("class TestClass {} let x = () => {};");
+            } catch (e) {
+                document.getElementById("es6required").style = "display: block;"
+            }
+        </script>
+
+        <hr />
+
+        <h2>About</h2>
+        <p>
+            A TS/JS component for rendering and playing music scores in the browser.
+        </p>
+        <p>
+            <a href="https://github.com/pahkasoft/web-music-score" target="_blank">GitHub Repository</a> |
+            <a href="https://www.npmjs.com/package/@tspro/web-music-score" target="_blank">NPM Package</a>
+        </p>
+
+        <hr />
+
+        <h2>Quick Example</h2>
+
+        <div id="errorMsg"></div>
+        <canvas id="scoreCanvas"></canvas><br />
+        <button id="playButton" type="button" class="btn btn-primary">Play</button>
+
+        <script src="https://unpkg.com/@tspro/web-music-score@4.1.0"></script>
+
+        <script>
+            try {
+                const { Score } = window.WebMusicScore;
+
+                let doc = new Score.DocumentBuilder()
+                    .setScoreConfiguration("treble")
+                    .setKeySignature("G Major")
+                    .setTimeSignature("3/4")
+                    .addNote(0, "C4", "4n")
+                    .addNote(0, "E4", "4n")
+                    .addNote(0, "G4", "4n")
+                    .addMeasure()
+                    .addChord(0, ["C4", "E4", "G4"], "2.", { arpeggio: true })
+                    .getDocument();
+
+                new Score.MRenderer().
+                    setCanvas("scoreCanvas").
+                    setDocument(doc).
+                    draw();
+
+                new Score.MPlaybackButtons().
+                    setPlayStopButton("playButton").
+                    setDocument(doc);
+            }
+            catch (err) {
+                console.log(err);
+                document.getElementById("errorMsg").innerHTML = "<b>Error displaying Web Music Score demo!</b>";
+            }
+        </script>
+
+        <hr />
+
+        <h2>Demo Applications</h2>
+        <p>
+            <a href="./features-demo/index.html">Features Demo</a> |
+            <a href="./guitar-app/index.html">Interactive Guitar App</a>
+        </p>
+
+        <hr />
+
+        <h2>Version 4.x</h2>
+        <h5>TS Docs</h5>
+        <p>
+            <a href="./docs/v4.0.0/index.html">4.0.0</a> |
+            <a href="./docs/v4.0.1/index.html">4.0.1</a> |
+            <b><a href="./docs/v4.1.0/index.html">4.1.0 (latest)</a></b>
+        </p>
+        <h5>Examples</h5>
+        <p>
+            <a href="./examples/browser-example-v4.0.0.html">browser-example-v4.0.0.html</a><br />
+            <a href="./examples/ts-react-example-v4.0.0.zip">ts-react-example-v4.0.0.zip</a>
+        </p>
+        <hr />
+
+        <h2>Version 3.x</h2>
+        <h5>TS Docs</h5>
+        <p>
+            <a href="./docs/v3.0.0/index.html">3.0.0</a> |
+            <a href="./docs/v3.1.0/index.html">3.1.0</a> |
+            <a href="./docs/v3.1.1/index.html">3.1.1</a>
+        </p>
+        <h5>Examples</h5>
+        <p>
+            <a href="./examples/browser-example-v3.0.0.html">browser-example-v3.0.0.html</a><br />
+            <a href="./examples/ts-react-example-v3.0.0.zip">ts-react-example-v3.0.0.zip</a>
+        </p>
+
+        <hr />
+
+        <h2>Version 2.x</h2>
+        <h5>TS Docs</h5>
+        <p>
+            <a href="./docs/v2.0.0/index.html">2.0.0</a>
+        </p>
+
+        <hr />
+
+        <h2>Version 1.x</h2>
+        <h5>TS Docs</h5>
+        <p>
+            <a href="./docs/v1.0.0/index.html">1.0.0</a> |
+            <a href="./docs/v1.1.0/index.html">1.1.0</a>
+        </p>
+
+    </div>
+
+    <footer class="text-center text-muted py-4 mt-5 border-top">
+        Copyright &copy; 2025 PahkaSoft. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
