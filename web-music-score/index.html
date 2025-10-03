@@ -57,7 +57,7 @@
         <canvas id="scoreCanvas"></canvas><br />
         <button id="playButton" type="button" class="btn btn-primary">Play</button>
 
-        <script src="https://unpkg.com/@tspro/web-music-score@4.1.0"></script>
+        <script src="https://unpkg.com/@tspro/web-music-score@4.2.0"></script>
 
         <script>
             try {
@@ -69,35 +69,19 @@
                     .setTimeSignature("6/8")
                     .setTempo(120)
 
-                    .addNote(0, "A4", "8n", { stem: "up" })
-                    .addNote(0, "C#5", "8n")
-                    .addNote(0, "E5", "8n")
-                    .addNote(0, "E5", "8n")
-                    .addNote(0, "C#5", "8n")
-                    .addNote(0, "A4", "8n")
-                    .addNote(1, "A3", "4.", { stem: "down" })
-                    .addNote(1, "A3", "4.")
+                    .addNote(0, ["A4", "C#5", "E5", "E5", "C#5", "A4"], "8n", { stem: "up" })
+                    .addNote(1, ["A3", "A3"], "4.", { stem: "down" })
 
                     .addMeasure()
                     .addNavigation("ending", 1)
                     .addNavigation("endRepeat")
-                    .addNote(0, "D5", "8n")
-                    .addNote(0, "B4", "8n")
-                    .addNote(0, "G#4", "8n")
-                    .addNote(0, "A4", "8n")
-                    .addNote(0, "C#5", "8n")
-                    .addNote(0, "E5", "8n")
-                    .addNote(1, "E3", "4.")
-                    .addNote(1, "E3", "4.")
+                    .addNote(0, ["D5", "B4", "G#4", "A4", "C#5", "E5"], "8n")
+                    .addNote(1, ["E3", "E3"], "4.")
 
                     .addMeasure()
                     .addNavigation("ending", 2)
-                    .addNote(0, "D5", "8n")
-                    .addNote(0, "B4", "8n")
-                    .addNote(0, "G#4", "8n")
-                    .addNote(0, "A4", "4.")
-                    .addNote(1, "E3", "4.")
-                    .addNote(1, "A3", "4.")
+                    .addNote(0, ["D5", "B4", "G#4", "A4"], "8n")
+                    .addNote(1, ["E3", "A3"], "4.")
 
                     .getDocument();
 
@@ -147,7 +131,8 @@
         <p>
             <a href="./docs/v4.0.0/index.html">4.0.0</a> |
             <a href="./docs/v4.0.1/index.html">4.0.1</a> |
-            <b><a href="./docs/v4.1.0/index.html">4.1.0 (latest)</a></b>
+            <a href="./docs/v4.1.0/index.html">4.1.0</a> |
+            <b><a href="./docs/v4.2.0/index.html">4.2.0 (latest)</a></b>
         </p>
         <h5>Examples</h5>
         <p>
