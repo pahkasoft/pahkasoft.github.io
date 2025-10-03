@@ -51,7 +51,7 @@
 
         <hr />
 
-        <h2>Quick Example</h2>
+        <h2>Quick Demo</h2>
 
         <div id="errorMsg"></div>
         <canvas id="scoreCanvas"></canvas><br />
@@ -65,13 +65,40 @@
 
                 let doc = new Score.DocumentBuilder()
                     .setScoreConfiguration("treble")
-                    .setKeySignature("G Major")
-                    .setTimeSignature("3/4")
-                    .addNote(0, "C4", "4n")
-                    .addNote(0, "E4", "4n")
-                    .addNote(0, "G4", "4n")
+                    .setKeySignature("A Major")
+                    .setTimeSignature("6/8")
+                    .setTempo(120)
+
+                    .addNote(0, "A4", "8n", { stem: "up" })
+                    .addNote(0, "C#5", "8n")
+                    .addNote(0, "E5", "8n")
+                    .addNote(0, "E5", "8n")
+                    .addNote(0, "C#5", "8n")
+                    .addNote(0, "A4", "8n")
+                    .addNote(1, "A3", "4.", { stem: "down" })
+                    .addNote(1, "A3", "4.")
+
                     .addMeasure()
-                    .addChord(0, ["C4", "E4", "G4"], "2.", { arpeggio: true })
+                    .addNavigation("ending", 1)
+                    .addNavigation("endRepeat")
+                    .addNote(0, "D5", "8n")
+                    .addNote(0, "B4", "8n")
+                    .addNote(0, "G#4", "8n")
+                    .addNote(0, "A4", "8n")
+                    .addNote(0, "C#5", "8n")
+                    .addNote(0, "E5", "8n")
+                    .addNote(1, "E3", "4.")
+                    .addNote(1, "E3", "4.")
+
+                    .addMeasure()
+                    .addNavigation("ending", 2)
+                    .addNote(0, "D5", "8n")
+                    .addNote(0, "B4", "8n")
+                    .addNote(0, "G#4", "8n")
+                    .addNote(0, "A4", "4.")
+                    .addNote(1, "E3", "4.")
+                    .addNote(1, "A3", "4.")
+
                     .getDocument();
 
                 new Score.MRenderer().
