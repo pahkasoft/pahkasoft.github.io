@@ -48,7 +48,7 @@
         <ul>
             <li><a href="https://github.com/pahkasoft/web-music-score" target="_blank">GitHub Repository</a></li>
             <li><a href="https://www.npmjs.com/package/@tspro/web-music-score" target="_blank">NPM Package</a></li>
-            <li><a href="./docs/v4.2.0/index.html">TS Docs 4.2.0</a> (latest)</li>
+            <li><a href="./docs/v5.0.0/index.html">TS Docs 5.0.0</a> (latest)</li>
         </ul>
         </p>
 
@@ -60,11 +60,15 @@
         <canvas id="scoreCanvas"></canvas><br />
         <button id="playButton" type="button" class="btn btn-primary">Play</button>
 
-        <script src="https://unpkg.com/@tspro/web-music-score@4.2.0"></script>
+        <script src="https://unpkg.com/@tspro/web-music-score@5.0.0/dist/iife/index.global.js"></script>
+        <script src="https://unpkg.com/@tspro/web-music-score@5.0.0/dist/iife/audio-cg.global.js"></script>
 
         <script>
             try {
-                const { Score } = window.WebMusicScore;
+                const { Audio, Score } = window.WebMusicScore;
+                const { ClassicalGuitar } = window.Audio_ClassicalGuitar;
+
+                Audio.addInstrument(ClassicalGuitar);
 
                 let doc = new Score.DocumentBuilder()
                     .setScoreConfiguration("treble")
@@ -128,6 +132,18 @@
 
         <h2>Resources</h2>
         <br />
+
+        <h3>Version 5.x</h3>
+        <h5>TS Docs</h5>
+        <p>
+            <a href="./docs/v5.0.0/index.html">5.0.0</a>
+        </p>
+        <h5>Examples</h5>
+        <p>
+            <a href="./examples/browser-example-v5.0.0.html">browser-example-v5.0.0.html</a><br />
+            <a href="./examples/ts-react-example-v5.0.0.zip">ts-react-example-v5.0.0.zip</a>
+        </p>
+        <hr />
 
         <h3>Version 4.x</h3>
         <h5>TS Docs</h5>
