@@ -48,7 +48,7 @@
         <ul>
             <li><a href="https://github.com/pahkasoft/web-music-score" target="_blank">GitHub Repository</a></li>
             <li><a href="https://www.npmjs.com/package/@tspro/web-music-score" target="_blank">NPM Package</a></li>
-            <li><a href="./docs/v5.2.0/index.html">TS Docs 5.2.0</a> (latest)</li>
+            <li><a href="./docs/v5.3.0/index.html">TS Docs 5.3.0</a> (latest)</li>
         </ul>
         </p>
 
@@ -60,8 +60,8 @@
         <canvas id="scoreCanvas"></canvas><br />
         <button id="playButton" type="button" class="btn btn-primary">Play</button>
 
-        <script src="https://unpkg.com/@tspro/web-music-score@5.2.0/dist/iife/index.global.js"></script>
-        <script src="https://unpkg.com/@tspro/web-music-score@5.2.0/dist/iife/audio-cg.global.js"></script>
+        <script src="https://unpkg.com/@tspro/web-music-score@5.3.0/dist/iife/index.global.js"></script>
+        <script src="https://unpkg.com/@tspro/web-music-score@5.3.0/dist/iife/audio-cg.global.js"></script>
 
         <script>
             try {
@@ -93,7 +93,7 @@
 
                     .getDocument();
 
-                new Score.MRenderer().
+                new Score.MRenderContext().
                     setCanvas("scoreCanvas").
                     setDocument(doc).
                     draw();
@@ -139,7 +139,8 @@
         <p>
             <a href="./docs/v5.0.0/index.html">5.0.0</a> |
             <a href="./docs/v5.1.0/index.html">5.1.0</a> |
-            <a href="./docs/v5.2.0/index.html">5.2.0</a>
+            <a href="./docs/v5.2.0/index.html">5.2.0</a> |
+            <a href="./docs/v5.3.0/index.html">5.3.0</a>
         </p>
         <h5>Examples</h5>
         <p>
