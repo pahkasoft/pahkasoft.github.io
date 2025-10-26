@@ -48,13 +48,11 @@
             }
         </script>
 
-        <h1 class="text-center">Packages</h1>
-
         <div class="row">
             <div class="col col-md-6 mb-4">
                 <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">@tspro/brace-format</h5>
+                        <h5 class="card-title">PKG: @tspro/brace-format</h5>
                         <p class="card-text">A TS/JS library for powerful string formatting using brace notation.</p>
                         <p class="card-text">
                             Link: <a href="./brace-format/index.html">BraceFormat</a>
@@ -70,7 +68,7 @@
             <div class="col col-md-6 mb-4">
                 <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">@tspro/tsup-plugin-inline-assets</h5>
+                        <h5 class="card-title">PKG: @tspro/tsup-plugin-inline-assets</h5>
                         <p class="card-text">An inline assets plugin for tsup bundler.</p>
                         <p class="card-text">
                             Link: <a href="./tsup-plugin-inline-assets/index.html">TsupPluginInlineAssets</a>
@@ -89,7 +87,7 @@
             <div class="col col-md-6 mb-4">
                 <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">@tspro/web-music-score</h5>
+                        <h5 class="card-title">PKG: @tspro/web-music-score</h5>
                         <p class="card-text">A TS/JS component for rendering and playing music scores in the browser.
                         </p>
                         <p class="card-text">
@@ -102,7 +100,7 @@
             <div class="col col-md-6 mb-4">
                 <div class="card m-1">
                     <div class="card-body">
-                        <h5 class="card-title">@tspro/ts-utils-lib</h5>
+                        <h5 class="card-title">PKG: @tspro/ts-utils-lib</h5>
                         <p class="card-text">A small collection of TypeScript functions, containers, etc. used in my
                             personal
                             projects.</p>
@@ -110,15 +108,16 @@
                             Link: <a href="./ts-utils-lib/index.html">TsUtilsLib</a>
                         </p>
                         <div class="code-block">
-                            # Install
-                            npm i @tspro/ts-utils-lib
+                            import { Guard } from "@tspro/ts-utils-lib";
+
+                            if(Guard.isIntegerGte(i, 5)) {
+                            // i is integer >= 5
+                            }
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <h1 class="text-center">Other</h1>
 
         <div class="row">
             <div class="col col-md-6 mb-4">
