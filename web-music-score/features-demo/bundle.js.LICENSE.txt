@@ -1,3 +1,13 @@
+/*! Bundled license information:
+
+@tspro/ts-utils-lib/dist/index.mjs:
+  (*!
+   * TsUtilsLib v2.1.0 (esm)
+   * (c) 2023–2025 PahkaSoft
+   * Licensed under the MIT License
+   *)
+*/
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -36,11 +46,4 @@
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */
-
-/**
- * Tone.js
- * @author Yotam Mann
- * @license http://opensource.org/licenses/MIT MIT License
- * @copyright 2014-2024 Yotam Mann
  */
