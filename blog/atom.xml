@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pahkasoft.com/blog</id>
+    <title>PahkaSoft Blog</title>
+    <updated>2025-11-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pahkasoft.com/blog"/>
+    <subtitle>PahkaSoft Blog</subtitle>
+    <icon>https://pahkasoft.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Website Update]]></title>
+        <id>https://pahkasoft.com/blog/website-update</id>
+        <link href="https://pahkasoft.com/blog/website-update"/>
+        <updated>2025-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Creating new website with Docusaurus.]]></summary>
+        <content type="html"><![CDATA[<p>Creating new website with <a href="https://pahkasoft.com/blog/docusaurus.io" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a>.</p>]]></content>
+        <author>
+            <name>Stefan B.</name>
+        </author>
+        <category label="pahkasoft.com" term="pahkasoft.com"/>
+    </entry>
+</feed>

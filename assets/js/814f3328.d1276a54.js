@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkpahkasoft_github_com=globalThis.webpackChunkpahkasoft_github_com||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Website Update","permalink":"/blog/website-update","unlisted":false,"date":"2025-11-28T00:00:00.000Z"}]}')}}]);

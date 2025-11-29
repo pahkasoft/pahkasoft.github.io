@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>PahkaSoft Blog</title>
+        <link>https://pahkasoft.com/blog</link>
+        <description>PahkaSoft Blog</description>
+        <lastBuildDate>Fri, 28 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Website Update]]></title>
+            <link>https://pahkasoft.com/blog/website-update</link>
+            <guid>https://pahkasoft.com/blog/website-update</guid>
+            <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Creating new website with Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p>Creating new website with <a href="https://pahkasoft.com/blog/docusaurus.io" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a>.</p>]]></content:encoded>
+            <category>pahkasoft.com</category>
+        </item>
+    </channel>
+</rss>
