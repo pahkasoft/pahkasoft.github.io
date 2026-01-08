@@ -13,8 +13,13 @@
             <link>https://pahkasoft.com/blog/ts-utils-lib-update</link>
             <guid>https://pahkasoft.com/blog/ts-utils-lib-update</guid>
             <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Updated @tspro/ts-utils-lib@3.1.1.]]></description>
-            <content:encoded><![CDATA[<p>Updated <a class="" href="https://pahkasoft.com/ts-utils-lib/">@tspro/ts-utils-lib@3.1.1</a>.</p>]]></content:encoded>
+            <description><![CDATA[Updated ts-utils-lib to v3.1.1.]]></description>
+            <content:encoded><![CDATA[<p>Updated ts-utils-lib to <a class="" href="https://pahkasoft.com/ts-utils-lib/">v3.1.1</a>.</p>
+<p>Changes:</p>
+<ul>
+<li class=""><code>Device</code> module in <code>v3.0.0</code> is the major update.</li>
+<li class=""><code>CallTracker</code> class in <code>v3.1.1</code> (avoid <code>v3.1.0</code> with invalid implementation).</li>
+</ul>]]></content:encoded>
             <category>TsUtilsLib</category>
         </item>
         <item>
