@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkpahkasoft_github_com=globalThis.webpackChunkpahkasoft_github_com||[]).push([[121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"pahkasoft.com","permalink":"/blog/tags/pahkasoft-com","description":"PahkaSoft website","count":1}]}')}}]);

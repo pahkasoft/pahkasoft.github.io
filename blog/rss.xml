@@ -4,10 +4,19 @@
         <title>PahkaSoft Blog</title>
         <link>https://pahkasoft.com/blog</link>
         <description>PahkaSoft Blog</description>
-        <lastBuildDate>Fri, 28 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[TsUtilsLib Update]]></title>
+            <link>https://pahkasoft.com/blog/ts-utils-lib-update</link>
+            <guid>https://pahkasoft.com/blog/ts-utils-lib-update</guid>
+            <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Updated @tspro/ts-utils-lib@3.1.1.]]></description>
+            <content:encoded><![CDATA[<p>Updated <a class="" href="https://pahkasoft.com/ts-utils-lib/">@tspro/ts-utils-lib@3.1.1</a>.</p>]]></content:encoded>
+            <category>TsUtilsLib</category>
+        </item>
         <item>
             <title><![CDATA[Website Update]]></title>
             <link>https://pahkasoft.com/blog/website-update</link>

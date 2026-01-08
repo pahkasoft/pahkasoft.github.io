@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pahkasoft.com/blog</id>
     <title>PahkaSoft Blog</title>
-    <updated>2025-11-28T00:00:00.000Z</updated>
+    <updated>2026-01-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pahkasoft.com/blog"/>
     <subtitle>PahkaSoft Blog</subtitle>
     <icon>https://pahkasoft.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[TsUtilsLib Update]]></title>
+        <id>https://pahkasoft.com/blog/ts-utils-lib-update</id>
+        <link href="https://pahkasoft.com/blog/ts-utils-lib-update"/>
+        <updated>2026-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Updated @tspro/ts-utils-lib@3.1.1.]]></summary>
+        <content type="html"><![CDATA[<p>Updated <a class="" href="https://pahkasoft.com/ts-utils-lib/">@tspro/ts-utils-lib@3.1.1</a>.</p>]]></content>
+        <author>
+            <name>Stefan B.</name>
+        </author>
+        <category label="TsUtilsLib" term="TsUtilsLib"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Website Update]]></title>
         <id>https://pahkasoft.com/blog/website-update</id>
