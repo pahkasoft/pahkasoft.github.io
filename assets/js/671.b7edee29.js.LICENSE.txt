@@ -1,9 +1,0 @@
-/*! Bundled license information:
-
-@tspro/ts-utils-lib/dist/index.mjs:
-  (*!
-   * TsUtilsLib v2.3.0 (esm)
-   * (c) 2023-2025 PahkaSoft
-   * Licensed under the MIT License
-   *)
-*/

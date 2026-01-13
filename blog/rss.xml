@@ -4,10 +4,23 @@
         <title>PahkaSoft Blog</title>
         <link>https://pahkasoft.com/blog</link>
         <description>PahkaSoft Blog</description>
-        <lastBuildDate>Thu, 08 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Update and Stuff]]></title>
+            <link>https://pahkasoft.com/blog/update-and-stuff</link>
+            <guid>https://pahkasoft.com/blog/update-and-stuff</guid>
+            <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Deprecated @tspro/web-music-score.]]></description>
+            <content:encoded><![CDATA[<p>Deprecated <a class="" href="https://pahkasoft.com/web-music-score/">@tspro/web-music-score</a>.
+Redirecting into a new website at <strong><a href="https://web-music-score.org/" target="_blank" rel="noopener noreferrer" class="">web-music-score.org</a></strong>.</p>
+<p>Updated ts-utils-lib to <a class="" href="https://pahkasoft.com/ts-utils-lib/">v3.3.0</a>.</p>]]></content:encoded>
+            <category>@tspro/web-music-score</category>
+            <category>@tspro/ts-utils-lib</category>
+            <category>pahkasoft.com</category>
+        </item>
         <item>
             <title><![CDATA[TsUtilsLib Update]]></title>
             <link>https://pahkasoft.com/blog/ts-utils-lib-update</link>
@@ -20,7 +33,8 @@
 <li class=""><code>Device</code> module in <code>v3.0.0</code> is the major update.</li>
 <li class=""><code>CallTracker</code> class in <code>v3.1.1</code> (avoid <code>v3.1.0</code> with invalid implementation).</li>
 </ul>]]></content:encoded>
-            <category>TsUtilsLib</category>
+            <category>@tspro/ts-utils-lib</category>
+            <category>pahkasoft.com</category>
         </item>
         <item>
             <title><![CDATA[Website Update]]></title>
