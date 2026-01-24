@@ -15,16 +15,18 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://pahkasoft.com',
+  url: 'https://pahkasoft.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'pahkasoft', // Usually your GitHub org/user name.
+  organizationName: 'pahkasoft',      // Usually your GitHub org/user name.
   projectName: 'pahkasoft.github.io', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
+
+  trailingSlash: false, // optional but recommended
 
   onBrokenLinks: 'throw',
 
