@@ -2,19 +2,17 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Installation
+## Install
 
 ```bash
 npm install
 ```
 
-## Local Development
+## Develop
 
 ```bash
 npm run start
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ## Build
 
@@ -22,12 +20,20 @@ This command starts a local development server and opens up a browser window. Mo
 npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Test
 
-## Deployment
+```bash
+npm run serve
+```
 
-- Run `npm run build`.
-- Then manually copy content `build/` to the website repository.
-- Watch to keep the CNAME file there.
+## Deploy
 
+```bash
+npm run deploy
+```
 
+I also had to config git because of two github accounts:
+
+```bash
+git config --global url."git@github.com-pahkasoft:pahkasoft/".insteadOf "git@github.com:pahkasoft/"
+```
