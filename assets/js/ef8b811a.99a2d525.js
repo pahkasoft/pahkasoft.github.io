@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkpahkasoft_github_com=globalThis.webpackChunkpahkasoft_github_com||[]).push([[947],{6600(a){a.exports=JSON.parse('{"authors":[{"name":"Stefan B.","title":"Creator of PahkaSoft","imageURL":"/img/authors/stefanb.png","key":"stefanb","page":null,"count":4}]}')}}]);
