@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://pahkasoft.com/blog</id>
+    <id>https://pahkasoft.github.io/blog</id>
     <title>PahkaSoft Blog</title>
     <updated>2026-01-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://pahkasoft.com/blog"/>
+    <link rel="alternate" href="https://pahkasoft.github.io/blog"/>
     <subtitle>PahkaSoft Blog</subtitle>
-    <icon>https://pahkasoft.com/img/favicon.ico</icon>
+    <icon>https://pahkasoft.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Update StdFormat]]></title>
-        <id>https://pahkasoft.com/blog/update-std-format-4-1-1</id>
-        <link href="https://pahkasoft.com/blog/update-std-format-4-1-1"/>
+        <id>https://pahkasoft.github.io/blog/update-std-format-4-1-1</id>
+        <link href="https://pahkasoft.github.io/blog/update-std-format-4-1-1"/>
         <updated>2026-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Updated std-format to v4.1.1.]]></summary>
-        <content type="html"><![CDATA[<p>Updated std-format to <a class="" href="https://pahkasoft.com/std-format/">v4.1.1</a>.</p>
+        <content type="html"><![CDATA[<p>Updated std-format to <a class="" href="https://pahkasoft.github.io/std-format">v4.1.1</a>.</p>
 <p>This update fixed std-format object formatting and improved
 webpage with quick start and live demo snippets sections.</p>]]></content>
         <author>
@@ -24,11 +24,11 @@ webpage with quick start and live demo snippets sections.</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[New WebMusicScore Page]]></title>
-        <id>https://pahkasoft.com/blog/update-and-stuff</id>
-        <link href="https://pahkasoft.com/blog/update-and-stuff"/>
+        <id>https://pahkasoft.github.io/blog/update-and-stuff</id>
+        <link href="https://pahkasoft.github.io/blog/update-and-stuff"/>
         <updated>2026-01-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Deprecated @tspro/web-music-score.]]></summary>
-        <content type="html"><![CDATA[<p>Deprecated <a class="" href="https://pahkasoft.com/web-music-score/">@tspro/web-music-score</a>.
+        <content type="html"><![CDATA[<p>Deprecated <a class="" href="https://pahkasoft.github.io/web-music-score">@tspro/web-music-score</a>.
 Redirecting into a new dedicated website at <strong><a href="https://web-music-score.org/" target="_blank" rel="noopener noreferrer" class="">web-music-score.org</a></strong>.</p>]]></content>
         <author>
             <name>Stefan B.</name>
@@ -38,11 +38,11 @@ Redirecting into a new dedicated website at <strong><a href="https://web-music-s
     </entry>
     <entry>
         <title type="html"><![CDATA[TsUtilsLib Update]]></title>
-        <id>https://pahkasoft.com/blog/ts-utils-lib-update</id>
-        <link href="https://pahkasoft.com/blog/ts-utils-lib-update"/>
+        <id>https://pahkasoft.github.io/blog/ts-utils-lib-update</id>
+        <link href="https://pahkasoft.github.io/blog/ts-utils-lib-update"/>
         <updated>2026-01-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Updated ts-utils-lib to v3.1.1.]]></summary>
-        <content type="html"><![CDATA[<p>Updated ts-utils-lib to <a class="" href="https://pahkasoft.com/ts-utils-lib/">v3.1.1</a>.</p>
+        <content type="html"><![CDATA[<p>Updated ts-utils-lib to <a class="" href="https://pahkasoft.github.io/ts-utils-lib">v3.1.1</a>.</p>
 <p>Changes:</p>
 <ul>
 <li class=""><code>Device</code> module in <code>v3.0.0</code> is the major update.</li>
@@ -56,11 +56,11 @@ Redirecting into a new dedicated website at <strong><a href="https://web-music-s
     </entry>
     <entry>
         <title type="html"><![CDATA[Website Update]]></title>
-        <id>https://pahkasoft.com/blog/website-update</id>
-        <link href="https://pahkasoft.com/blog/website-update"/>
+        <id>https://pahkasoft.github.io/blog/website-update</id>
+        <link href="https://pahkasoft.github.io/blog/website-update"/>
         <updated>2025-11-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Creating new website with Docusaurus.]]></summary>
-        <content type="html"><![CDATA[<p>Creating new website with <a href="https://pahkasoft.com/blog/docusaurus.io" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a>.</p>]]></content>
+        <content type="html"><![CDATA[<p>Creating new website with <a href="https://pahkasoft.github.io/blog/docusaurus.io" target="_blank" rel="noopener noreferrer" class="">Docusaurus</a>.</p>]]></content>
         <author>
             <name>Stefan B.</name>
         </author>
