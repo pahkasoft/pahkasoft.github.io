@@ -1,0 +1,19 @@
+website:
+  label: pahkasoft.com
+  permalink: /website
+  description: PahkaSoft.com Website
+
+ts-utils-lib:
+  label: "@tspro/ts-utils-lib"
+  permalink: /ts-utils-lib
+  description: A Personal TypeScript Utils Library
+
+std-format:
+  label: "std-format"
+  permalink: /std-format
+  description: A Powerful String Formatter
+
+wms:
+  label: "web-music-score"
+  permalink: /web-music-score
+  description: Web Music Score
