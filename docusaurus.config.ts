@@ -90,16 +90,22 @@ const config: Config = {
       style: 'dark',
       links: [
         {
+          title: 'Resources',
+          items: [
+            { label: 'GitHub', href: 'https://github.com/pahkasoft', },
+            { label: 'NPM', href: 'https://npmjs.com/~swdude', },
+          ],
+        },
+        {
           title: 'Contact',
           items: [
             { label: 'Email', href: 'mailto:pahkasoft@outlook.com', },
           ],
         },
         {
-          title: 'More',
+          title: 'Other',
           items: [
-            { label: 'Blog', to: '/blog', },
-            { label: 'GitHub', href: 'https://github.com/pahkasoft', },
+            { label: 'webmusicscore.org', href: 'https://web-music-score.org', },
           ],
         },
       ],
