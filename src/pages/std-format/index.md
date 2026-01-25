@@ -7,13 +7,14 @@ StdFormat is a TypeScript/JavaScript library for powerful string formatting usin
 
 ## Resources
 
-[NPM Package](https://www.npmjs.com/package/std-format) | [GitHub Repository](https://github.com/pahkasoft/std-format)
+[NPM Package](https://www.npmjs.com/package/std-format) |
+[GitHub Repository](https://github.com/pahkasoft/std-format)
 
-## Documentation
+## API Reference
 
-<ApiLink api_dir="std-format" version="4.1.1">Documentation</ApiLink>
-<br />
-<br />
+<ApiLink api_dir="std-format" version="4.1.1">API Reference</ApiLink>
+
+Contains documentaton in the README file.
 
 ## Quick Start
 
@@ -49,7 +50,7 @@ const { format, int, float, setLocale, FormatError } = require("std-format");
 </script>
 ```
 
-### Use Format
+### Usage
 
 ```js
 const result = format("{:d}", 5);
@@ -58,3 +59,16 @@ const result = format("{:d}", 5);
 ## Demo Snippets
 
 <DemoSnippets />
+<br />
+
+## License
+
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this software under the terms of the MIT License.
+
+The full license text is available in the project repository.
+
+## Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.

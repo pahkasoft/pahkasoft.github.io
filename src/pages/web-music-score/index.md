@@ -1,9 +1,6 @@
-import { ApiLink, PathLink } from "@site/src/components/Links";
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import { ApiLink } from "@site/src/components/Links";
 
 # WebMusicScore - A Music Score Component For The Web
-
-A TS/JS component for rendering and playing music scores in the browser.
 
 👉 This project has moved into a dedicated website **[web-music-score.org](https://web-music-score.org)**.
 

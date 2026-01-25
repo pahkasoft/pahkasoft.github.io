@@ -6,9 +6,10 @@ A small collection of TypeScript functions, containers, etc. used in my personal
 
 ## Resources
 
-[NPM Package](https://www.npmjs.com/package/@tspro/ts-utils-lib)
-
+[NPM Package](https://www.npmjs.com/package/@tspro/ts-utils-lib) |
 [GitHub Repository](https://github.com/pahkasoft/ts-utils-lib)
+
+## API Reference
 
 <ApiLink api_dir="ts-utils-lib" version="3.3.1">API Reference</ApiLink> (latest)
 
@@ -60,9 +61,19 @@ const map = new UniMap<string, number>();
 console.log(Utils.Str.stringify(map));
 ```
 
-## Archive
+## License
 
-Here are old docs.
+This project is licensed under the MIT License.
+
+You are free to use, modify, and distribute this software under the terms of the MIT License.
+
+The full license text is available in the project repository.
+
+## Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+## API Archive
 
 ### Version 3.x
 <ApiLink api_dir="ts-utils-lib" version="3.1.1">3.1.1</ApiLink> | 
